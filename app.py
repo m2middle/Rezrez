@@ -24,7 +24,7 @@ def main():
     '''
     This is the principal function used to run the streamlit frontend
     '''
-    st.title("Binary Classifier Model")
+    st.title("Binary Classifier Model for Student performance")
     st.markdown("Enter the input data below to get a prediction")
     
     # Get the input data from the user
