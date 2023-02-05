@@ -25,6 +25,10 @@ def main():
     This is the principal function used to run the streamlit frontend
     '''
     st.title("Binary Classifier Model for Student performance")
+
+    #add a home page whicha ask to login as admin or user
+    menu = ["Home", "Login", "SignUp"]
+    choice = st.sidebar.selectbox("Menu", menu)
     st.markdown("Enter the input data below to get a prediction")
     
     # Get the input data from the user
